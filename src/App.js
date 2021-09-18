@@ -72,8 +72,8 @@ function App() {
   return (
     <div ref={TopRef}>
       <nav>
-        <img src={small_logo} onClick={scrollToTop}/>
-        <span className="normal-text albra white nav-text bold" onClick={scrollToTop}>
+        <img src={small_logo} onClick={scrollToTop} className='pointer'/>
+        <span className="normal-text albra white nav-text bold pointer" onClick={scrollToTop}>
           Baby Uniporn
         </span>
         <ul className="nav-menu gotham cyan">
